@@ -200,7 +200,7 @@ body.claro {
 }
 
 body.claro .hero {
-  background: linear-gradient(135deg, #AC79F2, #CAA9D9);
+  background: linear-gradient(135deg, #773ec6, #73139f);
   color: #101820;
 }
 
@@ -210,12 +210,12 @@ body.claro .botao {
 }
 
 body.claro .botao:hover {
-  background: #a304e2;
+  background: 		#A020F0;
   color: #fff;
 }
 
 body.claro .card {
-  background: #ffffff;
+  background:  #cbb6f5;
   border: 1px solid #ccc;
   box-shadow: 0 8px 16px rgba(0,0,0,0.1);
 }
@@ -237,7 +237,8 @@ body.claro .contato h2 {
 
 body.claro footer {
   background: #fdfdfd;
-  color: #4A90E2;
+  color: #921ddb;
+  font-size: 19px;
 }
 
 

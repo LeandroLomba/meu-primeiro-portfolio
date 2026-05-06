@@ -136,7 +136,7 @@ let modoEscuro = true;
 botaoModo.addEventListener('click', () => {
   // Define cor do overlay conforme tema atual (antes da troca)
   if (document.body.classList.contains('claro')) {
-    overlay.style.backgroundColor = '#fff';
+    overlay.style.backgroundColor = '#0000CD';
   } else {
     overlay.style.backgroundColor = '#000000ff';
   }
