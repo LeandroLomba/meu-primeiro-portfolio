@@ -27,8 +27,8 @@ window.addEventListener('resize', () => {
 
 // Partículas
 let particlesArray = [];
-const colors = ['#360259', '#CAA9D9', '#A56DF2', '#A56DF2'];
-
+const colors = ['#360259', '#CAA9D9', '#A56DF2', '#136b4d'];
+ 
 class Particle {
   constructor() {
     this.x = Math.random() * canvas.width;
