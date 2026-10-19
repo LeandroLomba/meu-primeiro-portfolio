@@ -27,7 +27,7 @@ window.addEventListener('resize', () => {
 
 // Partículas
 let particlesArray = [];
-const colors = ['#360259', '#CAA9D9', '#A56DF2', '#3436afff'];
+const colors = ['#360259', '#CAA9D9', '#A56DF2', '#A56DF2'];
 
 class Particle {
   constructor() {
@@ -136,7 +136,7 @@ let modoEscuro = true;
 botaoModo.addEventListener('click', () => {
   // Define cor do overlay conforme tema atual (antes da troca)
   if (document.body.classList.contains('claro')) {
-    overlay.style.backgroundColor = '#0000CD';
+    overlay.style.backgroundColor = '#A56DF2';
   } else {
     overlay.style.backgroundColor = '#000000ff';
   }
